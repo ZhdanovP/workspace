@@ -4,5 +4,7 @@
 2. make build
 3. make run
 4. run ssh agent inside the container
+```
 eval `ssh-agent -s`
-ssh-add -k ~/.ssh/id_rsa
+ssh-add -k ~/developer/.ssh/id_rsa
+```
