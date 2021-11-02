@@ -8,3 +8,4 @@
 eval `ssh-agent -s`
 ssh-add -k ~/developer/.ssh/id_rsa
 ```
+You can use prebuild docker image with crystal 1.1.1 https://hub.docker.com/repository/docker/pavelzh/neuralegion_workspace
